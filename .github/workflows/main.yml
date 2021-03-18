@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: checkout repo
         run:  |
-              https://github.com/iammix/GithubActionsCompileTestCpp.git
+              git clone https://github.com/iammix/GithubActionsCompileTestCpp.git
 
       - name: build with gcc and run
         run:  |
